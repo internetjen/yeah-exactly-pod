@@ -1,11 +1,14 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Racing_Sans_One } from 'next/font/google'
 import Script from 'next/script'
 import { Analytics } from '@vercel/analytics/react';
 
 
-const inter = Inter({ subsets: ['latin'] })
+const kanit = Racing_Sans_One( {
+  subsets: ['latin'],
+  weight: '400'
+} )
 
 export const metadata: Metadata = {
   title: 'Yeah, Exactly Podcast',
@@ -45,7 +48,7 @@ export default function RootLayout({
       </Script>
       </head>
       <body 
-      className={inter.className}>
+      className={kanit.className}>
         {children}
 
         <Analytics />
