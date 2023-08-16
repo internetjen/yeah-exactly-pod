@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,11 +8,12 @@ export default function Home() {
           {/* Yeah, Exactly Podcast&nbsp; */}
           {/* <code className="font-mono font-bold">app/page.tsx</code> */}
 
-      <Image 
-        src="/yeahexactlyfavicon.png" 
-        alt="Yeah, Exactly Podcast" 
-        width={130} 
-        height={130} />
+          <Image
+            src="/yeahexactlyfavicon.png"
+            alt="Yeah, Exactly Podcast"
+            width={130}
+            height={130}
+          />
         </p>
 
         <div className="fixed bottom-0 left-0 flex h-18 w-full items-end justify-center from-zinc-200">
@@ -23,16 +24,15 @@ export default function Home() {
       </div>
 
       <div className="grid text-center">
-
-      {/* Spotify link */}
+        {/* Spotify link */}
         <a
           href="https://open.spotify.com/show/3lTfO7doNs9aJsv2k8I4uw?si=c763f6e25e634b87?utm_source=spotify-link&utm_medium=website-link"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Listen on Spotify{' '}
+          <h2 className={`mb-3 text-xl font-semibold`}>
+            Listen on Spotify{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -49,14 +49,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Watch on YouTube{' '}
+          <h2 className={`mb-3 text-xl font-semibold`}>
+            Watch on YouTube{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
         </a>
-        
+
         {/* Apple Podcasts link */}
         <a
           href="https://podcasts.apple.com/us/podcast/yeah-exactly/id1701873624?utm_source=apple-podcasts-link&utm_medium=website-link"
@@ -64,8 +64,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Listen on Apple Podcasts{' '}
+          <h2 className={`mb-3 text-xl font-semibold`}>
+            Listen on Apple Podcasts{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -79,17 +79,29 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Listen on Apple Podcasts{' '}
+          <h2 className={`mb-3 text-xl font-semibold`}>
+            Listen on Apple Podcasts{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
         </a>
 
-
+        {/* RadioPublic link */}
+        <a
+          href="https://radiopublic.com/yeah-exactly-8j5gBD?utm_source=radiopublic-link&utm_medium=website-link"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-xl font-semibold`}>
+            Listen on RadioPublic{" "}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+        </a>
       </div>
-
     </main>
-  )
+  );
 }
