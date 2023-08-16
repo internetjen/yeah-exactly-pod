@@ -27,11 +27,11 @@ export default function Home() {
         {/* Spotify link */}
         <a
           href="https://open.spotify.com/show/3lTfO7doNs9aJsv2k8I4uw?si=c763f6e25e634b87?utm_source=spotify-link&utm_medium=website-link"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-pink-300 hover:bg-white hover:opacity-50"
+          className="group rounded-lg border border-transparent border-b-4 border-r-4 px-5 py-4 transition-colors hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:bg-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-xl font-semibold`}>
+          <h2 className={`text-xl font-semibold`}>
             Listen on Spotify{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -45,11 +45,11 @@ export default function Home() {
         {/* YouTube link */}
         <a
           href="https://www.youtube.com/channel/UCyW14xWQuAHVTCdJXqb9yLw?utm_source=youtube-link&utm_medium=website-link"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent border-b-4 border-r-4 px-5 py-4 transition-colors hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:bg-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-xl font-semibold`}>
+          <h2 className={`text-xl font-semibold`}>
             Watch on YouTube{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -60,11 +60,11 @@ export default function Home() {
         {/* Apple Podcasts link */}
         <a
           href="https://podcasts.apple.com/us/podcast/yeah-exactly/id1701873624?utm_source=apple-podcasts-link&utm_medium=website-link"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent border-b-4 border-r-4 px-5 py-4 transition-colors hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:bg-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-xl font-semibold`}>
+          <h2 className={`text-xl font-semibold`}>
             Listen on Apple Podcasts{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -75,11 +75,11 @@ export default function Home() {
         {/* Amazon Podcasts link */}
         <a
           href="https://music.amazon.com/podcasts/27caaa1c-1b78-4284-b6c6-b5fc269ae844/yeah-exactly?utm_source=amazon-music-link&utm_medium=website-link"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent border-b-4 border-r-4 px-5 py-4 transition-colors hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:bg-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-xl font-semibold`}>
+          <h2 className={`text-xl font-semibold`}>
             Listen on Amazon Podcasts{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -90,11 +90,11 @@ export default function Home() {
         {/* RadioPublic link */}
         <a
           href="https://radiopublic.com/yeah-exactly-8j5gBD?utm_source=radiopublic-link&utm_medium=website-link"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent border-b-4 border-r-4 px-5 py-4 transition-colors hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:bg-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-xl font-semibold`}>
+          <h2 className={`text-xl font-semibold`}>
             Listen on RadioPublic{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
