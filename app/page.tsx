@@ -28,7 +28,7 @@ export default function Home() {
         {/* Spotify link */}
         <a
           href="https://open.spotify.com/show/3lTfO7doNs9aJsv2k8I4uw?si=c763f6e25e634b87?utm_source=spotify-link&utm_medium=website-link"
-          className="group m-2 rounded-lg px-5 py-4 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
+          className="group m-2 rounded-lg px-5 py-2 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -38,8 +38,8 @@ export default function Home() {
             src="/spotify.svg"
             alt="spotify icon" 
             className="inline-block ml-2"
-            width={33}
-            height={33}
+            width={30}
+            height={30}
             />
             {" "}
             {/* <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -54,7 +54,7 @@ export default function Home() {
         {/* YouTube link */}
         <a
           href="https://www.youtube.com/channel/UCyW14xWQuAHVTCdJXqb9yLw?utm_source=youtube-link&utm_medium=website-link"
-          className="group m-2 rounded-lg px-5 py-4 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
+          className="group m-2 rounded-lg px-4 py-2 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -64,8 +64,8 @@ export default function Home() {
             src="/youtube.svg"
             alt="youtube icon" 
             className="inline-block ml-2"
-            width={35}
-            height={35}
+            width={30}
+            height={30}
             />
             {/* <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -77,7 +77,7 @@ export default function Home() {
         {/* Apple Podcasts link */}
         <a
           href="https://podcasts.apple.com/us/podcast/yeah-exactly/id1701873624?utm_source=apple-podcasts-link&utm_medium=website-link"
-          className="group m-2 rounded-lg px-5 py-4 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
+          className="group m-2 rounded-lg px-5 py-2 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -87,8 +87,8 @@ export default function Home() {
             src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Podcasts_%28iOS%29.svg"
             alt="podcast icon" 
             className="inline-block ml-2"
-            width={27}
-            height={27}
+            width={30}
+            height={30}
             />
           </h2>
         </a>
@@ -96,7 +96,7 @@ export default function Home() {
         {/* Amazon Podcasts link */}
         <a
           href="https://music.amazon.com/podcasts/27caaa1c-1b78-4284-b6c6-b5fc269ae844/yeah-exactly?utm_source=amazon-music-link&utm_medium=website-link"
-          className="group m-2 rounded-lg px-5 py-4 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
+          className="group m-2 rounded-lg px-5 py-2 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -106,8 +106,8 @@ export default function Home() {
             src="/amazon.svg"
             alt="amazon icon" 
             className="inline-block ml-2"
-            width={28}
-            height={28}
+            width={30}
+            height={30}
             />
             {" "}
           </h2>
@@ -116,7 +116,7 @@ export default function Home() {
         {/* RadioPublic link */}
         <a
           href="https://radiopublic.com/yeah-exactly-8j5gBD?utm_source=radiopublic-link&utm_medium=website-link"
-          className="group m-2 rounded-lg px-5 py-4 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:text-white hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
+          className="group m-2 rounded-lg px-5 py-2 transition-colors border border-transparent text-white border-b-slate-800 border-r-slate-800 bg-pink-400 hover:border-transparent hover:border-r-slate-800 hover:border-b-slate-800 hover:border-b-2 hover:border-r-2 hover:bg-white hover:text-pink-400"
           target="_blank"
           rel="noopener noreferrer"
         >
