@@ -2,59 +2,61 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-14">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 from-zinc-200 pb-6 pt-8 backdrop-blur-2xl">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+        <p className="fixed left-0 top-0 flex w-full justify-center from-zinc-200 pb-3 pt-3 color-opacity-100 backdrop-blur-3xl">
+          {/* Yeah, Exactly Podcast&nbsp; */}
+          {/* <code className="font-mono font-bold">app/page.tsx</code> */}
+
+      <Image 
+        src="/yeahexactlyfavicon.png" 
+        alt="Yeah, Exactly Podcast" 
+        width={130} 
+        height={130} />
         </p>
-        <div className="fixed bottom-0 left-0 flex h-18 w-full items-end justify-center border-t border-gray-300 from-zinc-200 backdrop-blur-2xl">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-2 text-xs opacity-50"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            © 2023 Yeah, Exactly Podcast. All rights reserved. 
-          </a>
+
+        <div className="fixed bottom-0 left-0 flex h-18 w-full items-end justify-center from-zinc-200">
+          <p className="pointer-events-none flex place-items-center gap-2 p-2 text-[10px] opacity-50">
+            © 2023 Yeah, Exactly Podcast. All rights reserved.
+          </p>
         </div>
       </div>
 
-      <div className="mb-32 grid text-center">
+      {/* Spotify link */}
+      <div className="mb-36 grid text-center">
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://open.spotify.com/show/3lTfO7doNs9aJsv2k8I4uw?si=c763f6e25e634b87?utm_source=spotify-link&utm_medium=website-link"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+            Listen on Spotify{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          {/* <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Find in-depth information about Next.js features and API.
-          </p>
+          </p> */}
         </a>
 
+        {/* YouTube link */}
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href="https://www.youtube.com/channel/UCyW14xWQuAHVTCdJXqb9yLw?utm_source=youtube-link&utm_medium=website-link"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
+            Watch on YouTube{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
         </a>
-
+        
+        {/* Apple Podcasts link */}
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -62,33 +64,14 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
+            Listen on Apple Podcasts{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
         </a>
       </div>
+
     </main>
   )
 }
