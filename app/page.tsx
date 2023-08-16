@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-14">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
-        <p className="fixed left-0 top-0 flex w-full justify-center from-zinc-200 pb-3 pt-3 color-opacity-100 backdrop-blur-3xl">
+    <main className="flex min-h-screen flex-col items-center justify-center p-2">
+      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm sm:text-[10px]">
+        <p className="fixed left-0 top-0 flex w-full justify-center from-zinc-200 pb-3 pt-3 color-opacity-100 backdrop-blur-1xl">
           {/* Yeah, Exactly Podcast&nbsp; */}
           {/* <code className="font-mono font-bold">app/page.tsx</code> */}
 
@@ -22,8 +22,9 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="grid text-center">
+
       {/* Spotify link */}
-      <div className="mb-36 grid text-center">
         <a
           href="https://open.spotify.com/show/3lTfO7doNs9aJsv2k8I4uw?si=c763f6e25e634b87?utm_source=spotify-link&utm_medium=website-link"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
