@@ -58,7 +58,7 @@ export default function Home() {
         
         {/* Apple Podcasts link */}
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://podcasts.apple.com/us/podcast/yeah-exactly/id1701873624?utm_source=apple-podcasts-link&utm_medium=website-link"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -70,6 +70,23 @@ export default function Home() {
             </span>
           </h2>
         </a>
+
+        {/* Amazon Podcasts link */}
+        <a
+          href="https://music.amazon.com/podcasts/27caaa1c-1b78-4284-b6c6-b5fc269ae844/yeah-exactly?utm_source=amazon-music-link&utm_medium=website-link"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Listen on Apple Podcasts{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+        </a>
+
+
       </div>
 
     </main>
