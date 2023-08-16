@@ -27,7 +27,7 @@ export default function Home() {
         {/* Spotify link */}
         <a
           href="https://open.spotify.com/show/3lTfO7doNs9aJsv2k8I4uw?si=c763f6e25e634b87?utm_source=spotify-link&utm_medium=website-link"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-pink-300 hover:bg-white hover:opacity-50"
           target="_blank"
           rel="noopener noreferrer"
         >
