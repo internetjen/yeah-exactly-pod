@@ -4,11 +4,8 @@ import { PiApplePodcastsLogoFill } from 'react-icons/pi'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-2">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm sm:text-[10px]">
-        <p className="fixed left-0 top-0 flex w-full justify-center from-zinc-200 pb-3 pt-3 color-opacity-100 backdrop-blur-1xl">
-          {/* Yeah, Exactly Podcast&nbsp; */}
-          {/* <code className="font-mono font-bold">app/page.tsx</code> */}
-
+      <div className="mb-10 z-10 max-w-5xl w-full items-center justify-between font-mono text-sm sm:text-[10px]">
+        <p className="fixed left-0 top-0 flex w-full justify-center from-zinc-200 pb-3 pt-3 color-opacity-100 backdrop-blur-2xl">
           <Image
             src="/yeahexactlyfavicon.png"
             alt="Yeah, Exactly Podcast"
@@ -16,12 +13,11 @@ export default function Home() {
             height={140}
           />
         </p>
-
-        <div className="fixed bottom-0 left-0 flex h-18 w-full items-end justify-center from-zinc-200">
+        {/* <div className="fixed bottom-0 left-0 flex h-18 w-full items-end justify-center from-zinc-200">
           <p className="pointer-events-none flex place-items-center gap-2 p-2 text-[10px] opacity-50">
             © 2023 Yeah, Exactly Podcast. All rights reserved.
           </p>
-        </div>
+        </div> */}
       </div>
 
       <div className="grid text-center m-10">
@@ -174,6 +170,12 @@ export default function Home() {
 
 
       </div>
+
+      <div className="fixed z-10 max-w-5xl bottom-0 left-0 flex h-18 w-full items-end justify-center from-zinc-200 font-mono text-sm sm:text-[10px]">
+          <p className="pointer-events-none flex place-items-center gap-2 p-2 text-[10px] opacity-50">
+            © 2023 Yeah, Exactly Podcast. All rights reserved.
+          </p>
+        </div>
     </main>
   );
 }
